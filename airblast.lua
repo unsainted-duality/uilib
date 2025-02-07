@@ -1,4 +1,4 @@
-local Repository = "https://raw.githubusercontent.com/geoduude/LinoriaLib/main/"
+local Repository = "https://raw.githubusercontent.com/unsainted-duality/LinoriaLib/main/" --credits to geoduude, but i dont want it randomly changed from the current state. these are archives 
 
 local Library = loadstring(game:HttpGet(Repository .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(Repository .. "addons/ThemeManager.lua"))()
@@ -107,7 +107,7 @@ if not isfile("bibulus.club/Interlude.mp3") then
     print("[ Pathos ] 'Interlude.mp3' not found, downloading..")
 
     local Time = tick()
-    local Interlude = request({Url = "https://github.com/geoduude/bibulus-dependencies/raw/main/Interlude.mp3"}).Body
+    local Interlude = request({Url = "https://.com/unsainted-duality/bibulus-dependencies/raw/main/Interlude.mp3"}).Body
 
     if Interlude then
         print("[ Pathos ] 'Interlude.mp3' Downloaded in "..string.format("%.2f", tick() - Time).."s.")
@@ -121,7 +121,7 @@ if not isfile("bibulus.club/More Gun Reversed.mp3") then
     print("[ Pathos ] 'More Gun Reversed.mp3' not found, downloading..")
 
     local Time = tick()
-    local Interlude = request({Url = "https://github.com/geoduude/bibulus-dependencies/raw/main/More%20Gun%20Reversed.mp3"}).Body
+    local Interlude = request({Url = "https://github.com/geoduude/unsainted-duality/raw/main/More%20Gun%20Reversed.mp3"}).Body
 
     if Interlude then
         print("[ Pathos ] 'More Gun Reversed.mp3' Downloaded in "..string.format("%.2f", tick() - Time).."s.")
